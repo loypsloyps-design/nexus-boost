@@ -1,0 +1,78 @@
+# ==========================================
+# NEXUS BOOST - Git Ignore
+# ==========================================
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Compilação .NET
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Visual Studio / IntelliSense
+*.VC.db
+*.VC.VC.opendb
+*.opendb
+*.sdf
+*.db
+*.sqlite
+FileContentIndex/
+.vsconfig
+
+# Testes / cobertura
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Publicação
+publish/
+
+# Pacotes
+packages/
+*.nupkg
+*.snupkg
+
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Arquivos de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Chaves e certificados
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Configurações locais com possíveis segredos
+appsettings.Local.json
+appsettings.Development.local.json
+
+# Backup / temporários do NEXUS
+*.bak
+*.backup
+*.old
+
+# Logs locais do NEXUS
+logs/
